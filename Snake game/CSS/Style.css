@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(0, 0, 0, 0.952);
+}
+#Score{
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 5px;
+    text-align: center;
+}
+#stage{
+    position: absolute;
+    /*border: 2px solid gray;*/
+    border-radius: 10px;
+    top: 10%;
+    left: 50%;
+    margin-left: -350px;
+}
