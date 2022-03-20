@@ -74,6 +74,7 @@ window.onload = function load(){
 
     function resetGame(){      
         pontoX=10, pontoY=15;
+        pontuacao=0;
         AppleX = Math.floor(Math.random()*quantidadePeca);
         AppleY = Math.floor(Math.random()*quantidadePeca);
         velocidadeX=1, velocidadeY=0;
